@@ -14,6 +14,7 @@ Installing:
 * Run: `chmod a+x dsl-*`
 * Copy or symlink both plugins into /etc/munin/plugins
 * Edit /etc/munin/plugin-conf.d/munin-node and add the following:
+
 ```
 [dsl-connspeed]
 env.DSLMODEMIP 192.168.0.1
