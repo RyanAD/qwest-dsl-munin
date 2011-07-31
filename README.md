@@ -1,4 +1,12 @@
-This is a very early version of two munin plugins for Qwest DSL modems.
+This is a very early version of two munin plugins for Qwest DSL modems. This currently graphs:
+
+* Power Down
+* Power Up
+* Attenuation Down
+* Attenuation Up
+* SNR Down
+* SNR Up
+* Connection speed (up / down)
 
 Installing:
 
