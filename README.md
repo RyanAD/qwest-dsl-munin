@@ -10,8 +10,9 @@ This is a very early version of two munin plugins for Qwest DSL modems. This cur
 
 Installing:
 
-* Download (clone repo) to get dsl-connspeed and dsl-stats
+* [Download](http://github.com/icedrake/qwest-dsl-munin/tarball/master) and extract
 * Run: `chmod a+x dsl-*`
+* Copy or symlink both plugins into /etc/munin/plugins
 * Edit /etc/munin/plugin-conf.d/munin-node and add the following:
 ```
 [dsl-connspeed]
